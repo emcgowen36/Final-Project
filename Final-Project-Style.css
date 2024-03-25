@@ -1,0 +1,28 @@
+body {  
+    color:black;  
+    font-size: medium;
+    font-family: Cambria, Georgia, 'Book Antiqua', serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+h2 {  
+    color: black;  
+    width: fit-content;
+    font-weight: bolder;
+}
+a:link {
+    color: aqua;
+}
+a:visited {
+    color: rgb(30, 30, 241);
+}
+a:hover {
+    background-color: rgb(246, 255, 121);
+}
+a:active {
+    color: red;
+}
