@@ -2,8 +2,13 @@ body {
     color:black;  
     font-size: medium;
     font-family: Cambria, Georgia, 'Book Antiqua', serif;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+@media screen and (max-width: 40em) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 }
 h1 {
     color: black;
@@ -25,4 +30,85 @@ a:hover {
 }
 a:active {
     color: red;
+}
+img#Pyramid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.navbar{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #5d5d5d;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height:3px;
+    width:0%;
+    background:#009688;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+.content{
+    position:absolute;
+    width:100%;
+    top:50%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:#fff;
+}
+.content h1{
+    font-size:70px;
+    margin-top:80px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.image-container img {
+    margin-right: 70px;
+}
+
+
+ol li {
+    font-size: 20px;
 }
