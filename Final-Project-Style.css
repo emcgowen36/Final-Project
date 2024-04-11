@@ -55,7 +55,6 @@ main {
     align-items: center;
     justify-content: space-between;
 }
-
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -92,23 +91,18 @@ main {
     font-size:70px;
     margin-top:80px;
 }
-
 ul li a:hover {
     color: red;
 }
-
 body {
     margin-left: 60px;
     margin-right: 60px;
     padding: 0;
     background-color: #ffffff;
 }
-
 .image-container img {
     margin-right: 70px;
 }
-
-
 ol li {
     font-size: 20px;
 }
